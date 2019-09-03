@@ -5,9 +5,93 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: steelblue;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.Settings {
+  margin: auto;
+  padding-top: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.Settings-inner {
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  width: 90%;
+  height: 100%;
+  background-color: aliceblue;
+}
+
+.Settings-line {
+  margin: auto;
+  padding-top: 10px;
+  width: 90%;
+}
+
+.Settings-label {
+  margin: auto;
+  display: inline-block;
+  color: rgba(0,0,0,0.54);
+  font-size: 16px;
+}
+
+.Settings-text {
+  display: inline-block;
+  width: 100%;
+}
+
+.Settings-textarea {
+  display: inline-block;
+  width: 90%;
+  height: 100%;
+}
+
+.Utterances {
+  margin: auto;
+  padding-top: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.Utterances-inner {
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  width: 90%;
+  height: 100%;
+  background-color: aliceblue;
+}
+
+.Utterances-line {
+  margin: auto;
+  padding-top: 0px;
+  width: 90%;
+  height: 46px;
+}
+
+.Utterances-under-line {
+  margin-top: -8px;
+}
+
+.Utterances-date {
+  position: absolute;
+  right: 40px;
+  padding-top: 26px;
+}
+
+.Circular-progress {
+  margin: auto;
+  width: 44px;
+  height: 44px;
+}
+
+.Hide {
+  visibility: hidden;
 }
